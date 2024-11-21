@@ -32,7 +32,10 @@ android {
 }
 
 dependencies {
-
+    // ZXing library for QR code scanning
+    implementation ("com.journeyapps:zxing-android-embedded:4.3.0")
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
