@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+    //camera permissions
     private void checkCameraPermission() {
         // Check if the camera permission is granted
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
